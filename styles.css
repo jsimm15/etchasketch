@@ -4,14 +4,37 @@
     margin: 0 10% 0 10%;
     justify-content: center;
 
+    border-width: 2px;
+    border-style: solid;
+
    /* grid-template-columns: repeat(10, 1fr);*/
 
 }   
 
 .gridContainer > div {
-    border-width: 1px;
-    border-style: dotted;
-    padding: 30px;
-    background-color: aqua;
+    border-width: 0px;
+    border-style: solid;
+    padding: 50%;
+    background-color: white;
+    text-align: center;
+}
+.sidebar {
+    background-color: blueviolet;
+}
+.sidebar > button {
+    width: 150px;
+    padding: 10px 20px;
+    margin: 10px 30% 10px;
+    border-radius: 10px;
+    
+}
+#main {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+.header {
+    padding:50 px;
+    font-size: xx-large;
+    font-family: fantasy;
     text-align: center;
 }
