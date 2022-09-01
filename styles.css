@@ -1,0 +1,17 @@
+.gridContainer {
+    display: grid;
+    
+    margin: 0 10% 0 10%;
+    justify-content: center;
+
+   /* grid-template-columns: repeat(10, 1fr);*/
+
+}   
+
+.gridContainer > div {
+    border-width: 1px;
+    border-style: dotted;
+    padding: 30px;
+    background-color: aqua;
+    text-align: center;
+}
